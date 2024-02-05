@@ -1,0 +1,121 @@
+:root {
+    --brand-color: #FF6C00;
+    --black-color: #303030;
+    --white-color: #FFFFFF;
+    --gray-color: rgba(157, 164, 189, 0.60);
+    --content-color: #555;
+
+    --text-font-family: "Open Sans", "sans-serif";
+    --header-font-family: "Raleway", "sans-serif";
+    --text-font:"Raleway";
+
+}
+/* Global styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.hero-container {
+    background-color: var(--black-color);
+    background-image: url("../images/image-slider.jpg");
+    background-size: cover;
+    color: var(--white-color);
+    flex-grow: 1;
+    padding: 40px 55px 40px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body{
+    font-family:var(--text-font-family);
+    }
+    .h1{
+    color: var(--white-color);
+        font-family: var(--header-font-family);
+        
+        font-size: 72px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 3.6px;
+    }
+    .contact-button{
+        background: peachpuff;
+    font-style: normal;
+    font-weight: 600;
+   line-height: normal;
+   letter-spacing: 1.1px;
+   margin-top: 10px;
+        
+    cursor: pointer;
+
+    display: flex;
+     justify-content: flex-end;
+      gap: 20px;
+    }
+   .hero-navbar-list {
+    display: flex;
+    padding: 8px 16px;
+    border-radius: 4px;
+
+
+
+    gap: 40px;
+  list-style-type: none;}
+  .hero-navbar-list:hover{
+    background-color: var(--gray-color);
+  }
+
+ .nav-link {
+ color: var(--white-color);
+   font-size: 12px;
+ font-weight: 600;
+ line-height: normal;
+ letter-spacing: 1.2px;
+ 
+  }  
+ .nav-link:hover, 
+ .nav-link:focus {
+ color: var(--brand-color);
+ }
+
+ .contact-button:hover,
+ :focus{color: var(--brand-color);}
+
+ .profil-picture{
+    width: 300px;
+    height: 350px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 40px;
+
+
+ }
+ .info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family:var(--text-font);
+
+ }
+ .About{
+     font-family:var(--text-font);
+     margin-left: 20px;
+    }
+ .Education-section{
+    font-family: var(--text-font);
+    margin-left: 20px;
+
+ }
+ .experience-section{
+    font-family: var(--text-font);
+    margin-left: 20px;
+ }
+ .skills-section{
+    font-family: var(--text-font);
+    margin-bottom: 50px;
+    margin-left: 20px;
+ }

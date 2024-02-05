@@ -4,20 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV LAVI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="">
 </head>
 <body>
     <!--title-->
-    <h1>Poinar Lavinia</h1>
-    <div>
+   <div class="hero-container">
+     <h1 class="h1">Poinar Lavinia</h1>
+    <nav class="hero-navbar">
+        <ul class="hero-navbar-list">
+            <li><a class="nav-link" href="#personal">Personal information</a></li>
+            <li><a class="nav-link" href="#about">About Me</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#experience">Experience</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="info" id="personal-information">
         <h2>Personal information</h2>
-        <p>Name:Poinar Lavinia Elena</p>
-        <button>Email:poinarlavinia@yahoo.com</button>
-        <button>Phone:07789007055</button>
-        <img src="./images/lavi.jpg" alt="" width="300">
+        <p class="name">Name: Poinar Lavinia Elena</p>
+        <!--control buttons-->
+        <p>Email:<a href="mailto:poinarlavinia@yahoo.com" class="contact-button">Contact</a></p>
+        <p>Phone: <a href="tel:07789007055" class="contact-button">Call Me </a></p>
+        
+        <img src="./images/lavi.jpg" alt="Profil picture" class="profil-picture" width="300">
     </div>
     <!--About me section-->
-    <div>
-        <h2>About Me</h2>
+    <div class="About" id="about-me">
+        <h2 class="about-me">About Me</h2>
         <p>I am a hyghly motivated and dedicated individual with a passion for technology and problem-solving. 
             I also posses good communication and teamwork abilities.I thrive in fast-paced environments and enjoy taking on new
             challenges</p>
@@ -27,7 +47,7 @@
         </p>
     </div>
     <!--Education ,experience and skills section-->
-    <div>
+    <div class="Education-section" id="education">
         <h2>Education</h2>
         <ul>
             <li>HND diploma in Nursing </li>
@@ -36,12 +56,12 @@
 
         </ul>
         </div>
-        <div>
+        <div class="experience-section" id="experience">
             <h2>Experience</h2>
             <p> Senior-Carer at Harino Care Limited 2018-2020</p>
             
         </div>
-      <div>
+      <div class="skills-section" id="skills" >
         <h2>Skills</h2>
         <ul>
             <li>HTML</li>
